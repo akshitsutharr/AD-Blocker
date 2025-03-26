@@ -1,7 +1,8 @@
-A AD-Blocker Chrome Extension 
-Work on Every Website 
-yeah! Even on Youtube 🤭 and Many Other Website
+## AD-Blocker Chrome Extension 
 
-I don't Have $5 so I Cant Publish On Chrome Web Store 😂😂
+# Work on Every Website 
+# yeah! Even on Youtube 🤭 and Many Other Website
 
-Made With 💖 By Akshit Suthar
+# I don't Have $5 so I Cant Publish On Chrome Web Store 😂😂
+
+# Made With 💖 By Akshit Suthar
