@@ -1,0 +1,26 @@
+[
+    {
+        "id": 7,
+        "priority": 1,
+        "action":{"type":"block"},
+        "condition":{"urlFilter":"*://*doubleverify.com/*"}
+    },
+    {
+        "id": 8,
+        "priority": 1,
+        "action":{"type":"block"},
+        "condition":{"urlFilter":"*://tracking.*.com/*"}
+    },
+    {
+        "id": 9,
+        "priority": 1,
+        "action":{"type":"block"},
+        "condition":{"urlFilter":"*://*analytics.*.com/*"}
+    },
+    {
+        "id": 10,
+        "priority": 1,
+        "action":{"type":"block"},
+        "condition":{"urlFilter":"*://*adtech.*.com/*"}
+    }
+]

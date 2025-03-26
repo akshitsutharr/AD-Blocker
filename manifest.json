@@ -1,0 +1,37 @@
+{
+    "name": "AD Blocker",
+    "version": "2.0.0",
+    "manifest_version": 3,
+    "description": "Advanced ad blocking extension to improve browsing experience",
+    "permissions": [
+        "declarativeNetRequest",
+        "storage",
+        "webRequest"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "declarative_net_request":{
+        "rule_resources":[
+            {
+                "id": "ruleset_1",
+                "enabled": true,
+                "path": "rules.json"
+            },
+            {
+                "id": "ruleset_2",
+                "enabled": true,
+                "path": "additional_rules.json"
+            }
+        ],
+        "dynamic_blocklist_limit": 10000
+    },
+    "action": {
+        "default_icon": "icon128.png"
+    },
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    }
+}
